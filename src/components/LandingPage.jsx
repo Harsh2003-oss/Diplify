@@ -13,7 +13,7 @@ const LandingPage = () => {
                   })}
                     
                 </div>
-                <div className='border-t-[1px] border-zinc-800 mt-32 py-5 px-20 flex justify-between'>
+                <div className='border-t-[1px] border-zinc-800 mt-20 py-5 px-20 flex justify-between'>
 {["For public and private companies","From the first pitch to IPO"].map((item,index)=>{
     return <p className='text-md font-light tracking-tight leading-none'>{item}</p>
 })}

@@ -4,7 +4,7 @@ import React from 'react'
 const LandingPage = () => {
     return (
         <>
-            <div className='w-full h-screen bg-zinc-900 pt-1'>
+            <div  data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 pt-1'>
                 <div className='textstructure mt-52 px-20'>
                   {["We","Create","Wardrobe Magic",].map((items,index)=>{
                     return   <div className='masker text-[7.5vw] uppercase leading-[6vw] tracking-tighter font-medium'>
